@@ -1,0 +1,8 @@
+{
+  "name": "static-site",
+  "forwardPorts": [8080],
+  "portsAttributes": {
+    "8080": { "label": "Local Server" }
+  },
+  "postCreateCommand": "bash -lc 'echo Ready'"
+}
