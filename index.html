@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mon premier site — Codespaces</title>
+    <meta name="description" content="Site statique minimal pour tests Codespaces + GitHub Pages" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="container">
+      <h1>🚀 Hello, Codespaces</h1>
+      <p class="muted">Un starter ultra-simple pour tester GitHub + Codespaces + Pages.</p>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <h2>Ça marche !</h2>
+        <p>Modifie ce texte dans <code>index.html</code> depuis ton Codespace. Sauvegarde, rafraîchis l’aperçu, commit & push.</p>
+        <button id="ping">Clique-moi</button>
+        <p id="pong" class="muted" aria-live="polite"></p>
+      </section>
+
+      <section class="grid">
+        <div class="tile">
+          <h3>Fichiers clés</h3>
+          <ul>
+            <li><code>index.html</code> — structure de la page</li>
+            <li><code>styles.css</code> — styles minimalistes</li>
+            <li><code>script.js</code> — petite interaction</li>
+          </ul>
+        </div>
+        <div class="tile">
+          <h3>Devcontainer</h3>
+          <p><code>.devcontainer/devcontainer.json</code> configure Codespaces et ouvre le port 8080.</p>
+        </div>
+        <div class="tile">
+          <h3>Déploiement</h3>
+          <p>Le workflow <code>.github/workflows/pages.yml</code> déploie automatiquement sur GitHub Pages.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container foot">
+      <small>Fait avec ❤️ dans Codespaces</small>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
